@@ -1,14 +1,14 @@
 :root{
     font-size: 75.5%;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Bungee Inline', cursive;
 }
 
 h1{
     font-size: 3.5rem;
     font-weight: 400;
     text-align: center;
-    font-family: 'oswald', sams-serif;
-    color: #3974b79d;
+    font-family: 'Bungee Inline', cursive;
+    color: red;
 }
 
 hr{
@@ -19,7 +19,7 @@ hr{
 }
 
 .container {
-    width: 96rem;
+    width: 78rem;
     margin: 2rem auto;
     }
 
@@ -71,17 +71,17 @@ hr{
     box-shadow: 0 10px 20px rgba(0, 0, 0,0.8),
 }
 .text {
-    color: white;
+    color: red;
     font-size: 2.5em;
-    padding: 16px 32px;
-    font-family: oswald, sans-serif;
+    padding: 16px 36px;
+    font-family: 'Bungee Inline', cursive;
 }
 
 @media (max-width: 500px) {
     .gallery-item, body {
         max-width: 30%;
         grid-column: 2;
-        font-family: oswald, sans-serif;
+        font-family: 'Bungee Inline', cursive;
         text-align: left;
 }
 div.container, h1 {
